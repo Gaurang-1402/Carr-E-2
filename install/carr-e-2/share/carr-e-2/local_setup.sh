@@ -1,0 +1,1 @@
+/home/dev/Desktop/dev_ws/build/carr-e-2/ament_cmake_environment_hooks/local_setup.sh
