@@ -1,8 +1,11 @@
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/empty.yaml
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/colors.xacro
+/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/gazebo_control.xacro
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/inertial_macros.xacro
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot.urdf.xacro
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot_core.xacro
+/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot_core_sim.xacro
+/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/launch/launch_sim.launch.py
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/launch/rsp.launch.py
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/worlds/empty.world
 /home/dev/Desktop/dev_ws/install/carr-e-2/share/ament_index/resource_index/package_run_dependencies/carr-e-2

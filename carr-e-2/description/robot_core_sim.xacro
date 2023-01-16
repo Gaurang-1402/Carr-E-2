@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+	<!-- GAZEBO CHASSIS -->
+	<gazebo reference="chasis">
+        <material>Gazebo/White</material>
+	</gazebo>
+	<!-- GAZEBO WHEELS -->
+    <gazebo reference="left_wheel">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+    <gazebo reference="right_wheel">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+	<!-- GAZEBO CASTER WHEEL -->
+    <gazebo reference="caster_wheel">
+        <material>
+            Gazebo/Black
+        </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+</robot>
