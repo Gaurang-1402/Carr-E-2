@@ -1,2 +1,0 @@
-Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
-Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8

@@ -1,5 +1,0 @@
-[0.015s] Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
-[0.031s] CMake Error: The source directory "/home/dev/Desktop/dev_ws/carr-e-2" does not exist.
-[0.031s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.032s] make: *** [Makefile:222: cmake_check_build_system] Error 1
-[0.034s] Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
