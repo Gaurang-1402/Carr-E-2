@@ -75,7 +75,7 @@ rviz2 -d carr-e-2/config/carr-e-2-gazebo-config.rviz
 ```
 
 
-Ensure basic setup is rerun. Open a new terminal and run
+Ensure basic setup is rerun. Now to run Gazebo, open a new terminal and run 
 
 
 ```
