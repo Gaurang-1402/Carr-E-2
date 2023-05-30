@@ -3,6 +3,8 @@
 
 # Basic setup
 
+If stuck with weird errors, run the basic setup again and then attempt the same process.
+
 First, create a folder called dev_ws and clone this repository
 
 ```
