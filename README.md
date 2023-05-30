@@ -22,7 +22,7 @@ Adding ```--symlink-install ``` makes it so that you don't have to rebuild every
 Now, you have to source the setup.bash file
 
 ```
-source setup.bash
+source install/setup.bash
 ```
 
 Now, open a new terminal and run the robot state publisher
