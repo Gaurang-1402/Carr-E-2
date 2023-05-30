@@ -31,9 +31,9 @@ Now, open a new terminal and run the robot state publisher
 ros2 launch carr-e-2 rsp.launch.py
 ```
 
-If everything works well, open a new terminal and run rviz
+If everything works well, open a new terminal and run rviz using the configuration created by Gaurang
 ```
-rviz2
+rviz2 -d carr-e-2/config/carr-e-2-rviz-config.rviz 
 ```
 
 The wheels need to get continous values. Since this is a simulation we need to provide these values through a joint state publisher gui. Open a new terminal and run
