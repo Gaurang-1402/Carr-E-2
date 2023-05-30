@@ -1,8 +1,7 @@
 # Carr-E-2
 🚃Autonomous luggage cart
 
-
-## Running the robot on RVIZ
+# Basic setup
 
 First, create a folder called dev_ws and clone this repository
 
@@ -25,7 +24,10 @@ Now, you have to source the setup.bash file
 source install/setup.bash
 ```
 
-Now, open a new terminal and run the robot state publisher
+
+## Running the robot on RVIZ
+
+Open a new terminal and run the robot state publisher
 
 ```
 ros2 launch carr-e-2 rsp.launch.py
@@ -41,6 +43,29 @@ The wheels need to get continous values. Since this is a simulation we need to p
 ```
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
 ```
+
+
+## Running the robot on Gazebo
+
+Install Gazebo if not done already
+
+```
+sudo apt install ros-foxy-gazebo-ros-pkgs
+```
+
+Open a new terminal and run the robot state publisher
+
+```
+ros2 launch carr-e-2 rsp.launch.py use_sim_time:=true
+```
+We need to provide the ```use_sim_time:=true``` param to make the robot state publisher follow the simulation's time.
+
+You can verify this by running
+```
+ros2 param get /robot_state_publisher use_sim_time 
+$ Boolean value is: True
+```
+
 
 
 
