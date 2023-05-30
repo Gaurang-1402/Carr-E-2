@@ -74,6 +74,14 @@ Ensure all windows are closed and the basic setup is rerun. Open a new terminal 
 ros2 launch carr-e-2 launch_sim.launch.py
 ```
 
+A gazebo window will open with the robot correctly plaxed
 
+We can now use teleop to control the movement of the robot by running the following command
+
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+We can now control the movement of the robot using keys on the keyboard
 
 
