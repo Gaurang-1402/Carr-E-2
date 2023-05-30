@@ -1,11 +1,14 @@
 # Carr-E-2
-🚃Autonomous luggage cart
 
-# Basic setup
+🚃 Autonomous luggage cart
+
+## Basic setup
 
 If stuck with weird errors, run the basic setup again and then attempt the same process.
 
 First, create a folder called dev_ws and clone this repository
+
+
 
 ```
 mkdir dev_ws
@@ -13,14 +16,18 @@ cd dev_ws
 git clone https://github.com/Gaurang-1402/Carr-E-2
 ```
 
+
 Now you have to build your ws with colcon
+
+
 
 ```
 colcon build --symlink-install
 ```
-Adding ```--symlink-install ``` makes it so that you don't have to rebuild every time you change urdfs but instead only have to build again if a new urdf file is added
+Adding `--symlink-install` makes it so that you don't have to rebuild every time you change urdfs but instead only have to build again if a new urdf file is added.
 
 Now, you have to source the setup.bash file
+
 
 ```
 source install/setup.bash
@@ -71,22 +78,23 @@ $ Boolean value is: True
 We need to run RVIZ before we run Gazebo so run rviz by using the following command
 
 ```
-rviz2
+rviz2 -d carr-e-2/config/carr-e-2-gazebo-config.rviz 
 ```
 
 
-Ensure basic setup is rerun. Open a new terminal and run
+Ensure basic setup is rerun. Now to run Gazebo, open a new terminal and run 
 
 
 ```
-ros2 launch carr-e-2 launch_sim.launch.py
+ros2 launch carr-e-2 launch_sim.launch.py world:=./carr-e-2/worlds/obstacles.world
 ```
 
-A gazebo window will open with the robot correctly placed
+A gazebo window will open with the robot correctly placed.
 
-Go back to rviz and set the global frame as ```odom```
+We use a world called "obstacles.world" created by Gaurang by default. But this can be changed.
 
-We can now use teleop to control the movement of the robot by running the following command
+
+We can now use teleop to control the movement of the robot by opening a new terminal and running the following command
 
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
