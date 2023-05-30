@@ -78,7 +78,7 @@ $ Boolean value is: True
 We need to run RVIZ before we run Gazebo so run rviz by using the following command
 
 ```
-rviz2 -d carr-e-2/config/carr-e-2-gazebo-config.rviz 
+rviz2 -d carr-e-2/config/carr-e-2-gazebo-lidar-config.rviz 
 ```
 
 
