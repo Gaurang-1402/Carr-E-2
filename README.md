@@ -110,9 +110,17 @@ Install the following packages
 sudo apt install ros-foxy-image-transport-plugins
 sudo apt install ros-foxy-rqt-image-view
 ```
+
+On a new terminal run 
+
+```
+ros2 run rqt_image_view rqt_image_view
+```
+
 We need to run RVIZ before we run Gazebo so run rviz by using the following command
 
 ```
 rviz2 -d carr-e-2/config/carr-e-2-gazebo-camera-config.rviz 
 ```
+
 
