@@ -68,10 +68,11 @@ ros2 param get /robot_state_publisher use_sim_time
 $ Boolean value is: True
 ```
 
+Ensure all windows are closed and the basic setup is rerun. Open a new terminal and run
 
-
-
-
+```
+ros2 launch carr-e-2 launch_sim.launch.py
+```
 
 
 
