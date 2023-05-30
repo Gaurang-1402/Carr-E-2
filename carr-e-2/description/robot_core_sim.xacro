@@ -23,4 +23,13 @@
         <mu1 value="0.001"/>
         <mu2 value="0.001"/>
     </gazebo>
+
+    <!-- GAZEBO LIDAR -->
+    <gazebo reference="laser_frame">
+        <material>
+            Gazebo/Red
+        </material>
+        <!-- <mu1 value="0.001"/>
+        <mu2 value="0.001"/> -->
+    </gazebo>
 </robot>
