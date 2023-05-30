@@ -32,4 +32,14 @@
         <!-- <mu1 value="0.001"/>
         <mu2 value="0.001"/> -->
     </gazebo>
+
+    <!-- GAZEBO CAMERA -->
+    <gazebo reference="camera_link">
+        <material>
+            Gazebo/Green
+        </material>
+        <!-- <mu1 value="0.001"/>
+        <mu2 value="0.001"/> -->
+    </gazebo>
+
 </robot>
