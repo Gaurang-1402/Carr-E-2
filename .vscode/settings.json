@@ -4,5 +4,6 @@
     ],
     "python.analysis.extraPaths": [
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/carr-e-2"
 }
