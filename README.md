@@ -123,4 +123,25 @@ We need to run RVIZ before we run Gazebo so run rviz by using the following comm
 rviz2 -d carr-e-2/config/carr-e-2-gazebo-camera-config.rviz 
 ```
 
+## ROS2 Control
+
+Install the following packages
+
+```
+sudo apt install ros-foxy-ros2-control ros-foxy-ros2-controllers ros-foxy-gazebo-ros2-control
+```
+
+Then run these 2 commands
+
+```
+
+ros2 run controller_manager spawner.py diff_cont
+ros2 run controller_manager spawner.py joint_broad
+```
+
+Finally run the following command to control the robot using the keyboard
+
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+```
 
