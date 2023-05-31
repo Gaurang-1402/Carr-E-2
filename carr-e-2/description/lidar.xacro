@@ -66,9 +66,9 @@
 			</ray>
 			<plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
 				<ros>
-					<argument>
+					<xacro:argument>
 						~/out:=scan
-					</argument>
+					</xacro:argument>
 				</ros>
 				<output_type>
 					sensor_msgs/LaserScan

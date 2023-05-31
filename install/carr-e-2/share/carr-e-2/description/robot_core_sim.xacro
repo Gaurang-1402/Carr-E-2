@@ -1,1 +1,45 @@
-/home/dev/Desktop/dev_ws/carr-e-2/description/robot_core_sim.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+	<!-- GAZEBO CHASSIS -->
+	<gazebo reference="chasis">
+        <material>Gazebo/White</material>
+	</gazebo>
+	<!-- GAZEBO WHEELS -->
+    <gazebo reference="left_wheel">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+    <gazebo reference="right_wheel">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+	<!-- GAZEBO CASTER WHEEL -->
+    <gazebo reference="caster_wheel">
+        <material>
+            Gazebo/Black
+        </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- GAZEBO LIDAR -->
+    <gazebo reference="laser_frame">
+        <material>
+            Gazebo/Red
+        </material>
+        <!-- <mu1 value="0.001"/>
+        <mu2 value="0.001"/> -->
+    </gazebo>
+
+    <!-- GAZEBO CAMERA -->
+    <gazebo reference="camera_link">
+        <material>
+            Gazebo/Green
+        </material>
+        <!-- <mu1 value="0.001"/>
+        <mu2 value="0.001"/> -->
+    </gazebo>
+
+</robot>
