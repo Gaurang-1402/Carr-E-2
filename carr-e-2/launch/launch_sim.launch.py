@@ -19,14 +19,23 @@ def generate_launch_description():
     filepath = os.path.join(package_directory, 'launch', 'rsp.launch.py')
     # force use_sim_true to be true
     robot_state_publisher = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([filepath]), launch_arguments={'use_sim_time': 'True'}.items()
+        PythonLaunchDescriptionSource([filepath]), 
+        launch_arguments={'use_sim_time': 'True'}.items()
     )
+
+
+    # in order to make gazebo and rviz synchronize better in terms of fps, we pass extra params to
+    # gazebo (set clock to 400hz from gazebo_params.yaml)
+    gazebo_params_file = os.path.join(package_directory, 'config', 'gazebo_params.yaml')
+
 
     # include gazebo launch file from gazebo_ros package
     gazebo_package_directory = get_package_share_directory('gazebo_ros')
     gazebo_filepath = os.path.join(gazebo_package_directory, 'launch', 'gazebo.launch.py')
+
     gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([gazebo_filepath])
+        PythonLaunchDescriptionSource([gazebo_filepath]),
+        launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
     )
 
     # run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you have a single robot in the simulation
