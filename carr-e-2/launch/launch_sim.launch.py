@@ -32,9 +32,24 @@ def generate_launch_description():
     # run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you have a single robot in the simulation
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py', arguments=['-topic', 'robot_description', '-entity', 'carr-e-2'], output='screen')
 
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["diff_cont"]
+    )
+
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["joint_broad"]
+
+    )
+
     # launch robot_state_publisher, gazebo, and spawn node so you don't need 3 separate terminals
     return LaunchDescription([
         robot_state_publisher, 
         gazebo, 
-        spawn_entity
+        spawn_entity,
+        diff_drive_spawner,
+        joint_broad_spawner
     ])
