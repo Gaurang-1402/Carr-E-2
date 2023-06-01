@@ -8,17 +8,30 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     
     package_filepath = get_package_share_directory('carr-e-2')
-    joy_params = os.path.join(package_filepath, 'config', 'joystick_params.yaml')
+    
+    joystick_params = os.path.join(package_filepath, 'config', 'joystick_params.yaml')
+    # teleop_params = os.path.join(package_filepath, 'config', 'teleop_params.yaml')
 
-    joy_node = Node(
+
+    joystick_node = Node(
         package='joy',
         executable='joy_node',
-        parameters=[joy_params]
+        parameters=[joystick_params]
     )
+
+
+    teleop_node = Node(
+        package='teleop_twist_joy',
+        executable='teleop_node',
+        parameters=[joystick_params],
+        # remappings=[('/cmd_vel', '/diff_cont/cmd_vel_unstamped')]
+    )
+
 
     return LaunchDescription(
         [
-            joy_node
+            joystick_node,
+            teleop_node
         ]
     )
 

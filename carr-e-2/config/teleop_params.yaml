@@ -1,9 +1,3 @@
-joy_node:
-  ros__parameters:
-    device_id: 0
-    deadzone: 0.05
-    autorepeat_rate: 20.0
-
 teleop_node:
   ros__parameters:
     axis_linear:
@@ -22,6 +16,6 @@ teleop_node:
 
 
     enable_button: 6
-    enable_turbo_button: 7
+    enable_turbo_button: 5
 
     require_enable_button: true

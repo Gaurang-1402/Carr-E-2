@@ -110,10 +110,10 @@ class JoyTester(Node):
 
         if not self.initialised:
             for i, val in enumerate(joy_msg.buttons):
-                self.buttons.append(JoyButton(self.canvas, left_space, v_space, height, i))
+                self.buttons.append(JoyButton(self.canvas, left_space, v_space, height, i+1))
 
             for i, val in enumerate(joy_msg.axes):
-                self.axes.append(JoyAxis(self.canvas, left_space, v_space, height, width, i))
+                self.axes.append(JoyAxis(self.canvas, left_space, v_space, height, width, i+1))
 
             self.initialised = True
 
