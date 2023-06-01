@@ -10,7 +10,7 @@ def generate_launch_description():
     package_filepath = get_package_share_directory('carr-e-2')
     
     joystick_params = os.path.join(package_filepath, 'config', 'joystick_params.yaml')
-    # teleop_params = os.path.join(package_filepath, 'config', 'teleop_params.yaml')
+    teleop_params = os.path.join(package_filepath, 'config', 'teleop_params.yaml')
 
 
     joystick_node = Node(
@@ -23,8 +23,8 @@ def generate_launch_description():
     teleop_node = Node(
         package='teleop_twist_joy',
         executable='teleop_node',
-        parameters=[joystick_params],
-        # remappings=[('/cmd_vel', '/diff_cont/cmd_vel_unstamped')]
+        parameters=[teleop_params],
+        remappings=[('/cmd_vel', '/diff_cont/cmd_vel_unstamped')]
     )
 
 
