@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating joy_tester.egg-info
+writing joy_tester.egg-info/PKG-INFO
+writing dependency_links to joy_tester.egg-info/dependency_links.txt
+writing entry points to joy_tester.egg-info/entry_points.txt
+writing requirements to joy_tester.egg-info/requires.txt
+writing top-level names to joy_tester.egg-info/top_level.txt
+writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages/site.py
+Creating /home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)
+Installing test_joy script to /home/dev/Desktop/dev_ws/install/joy_tester/lib/joy_tester
+
+Installed /home/dev/Desktop/dev_ws/build/joy_tester
+running install_data
+creating /home/dev/Desktop/dev_ws/install/joy_tester/share/ament_index
+creating /home/dev/Desktop/dev_ws/install/joy_tester/share/ament_index/resource_index
+creating /home/dev/Desktop/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+copying resource/joy_tester -> /home/dev/Desktop/dev_ws/install/joy_tester/share/ament_index/resource_index/packages
+copying package.xml -> /home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester
