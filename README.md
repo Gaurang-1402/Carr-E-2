@@ -164,6 +164,6 @@ ros2 launch carr-e-2 joystick.launch.py
 To check cmd_vel, run
 
 ```
-/diff_cont/cmd_vel_unstamped
+ros2 topic echo /diff_cont/cmd_vel_unstamped
 
 ```
