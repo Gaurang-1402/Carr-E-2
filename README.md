@@ -154,6 +154,12 @@ Open a new terminal and run
 ros2 run joy_tester test_joy
 ```
 
+This will help you debug any errors if present. Along with test_joy run this on a new terminal
+
+```
+ros2 topic echo joy
+```
+
 Run the joystick node
 
 ```
