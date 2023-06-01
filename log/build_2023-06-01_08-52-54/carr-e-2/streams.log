@@ -1,0 +1,47 @@
+[0.046s] Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
+[0.434s] Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
+[0.487s] Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/carr-e-2
+[0.504s] -- Install configuration: ""
+[0.504s] -- Execute custom install script
+[0.505s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-gazebo-camera-config.rviz
+[0.506s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-gazebo-config.rviz
+[0.506s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-gazebo-depth-camera-config.rviz
+[0.506s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-gazebo-lidar-config.rviz
+[0.506s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-main.rviz
+[0.507s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/carr-e-2-rviz-config.rviz
+[0.507s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/empty.yaml
+[0.507s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/gazebo_params.yaml
+[0.507s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/joystick_params.yaml
+[0.509s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/my_controllers.yaml
+[0.509s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/config/teleop_params.yaml
+[0.510s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/camera.xacro
+[0.510s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/colors.xacro
+[0.510s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/depth_camera.xacro
+[0.510s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/gazebo_control.xacro
+[0.511s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/inertial_macros.xacro
+[0.511s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/lidar.xacro
+[0.511s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot.urdf.xacro
+[0.512s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot_core.xacro
+[0.512s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/robot_core_sim.xacro
+[0.512s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/description/ros2_control.xacro
+[0.513s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/launch/joystick.launch.py
+[0.514s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/launch/launch_sim.launch.py
+[0.516s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/launch/rsp.launch.py
+[0.516s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/worlds/empty.world
+[0.516s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/worlds/obstacles.world
+[0.516s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/ament_index/resource_index/package_run_dependencies/carr-e-2
+[0.516s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/ament_index/resource_index/parent_prefix_path/carr-e-2
+[0.517s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/environment/ament_prefix_path.sh
+[0.517s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/environment/ament_prefix_path.dsv
+[0.518s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/environment/path.sh
+[0.518s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/environment/path.dsv
+[0.519s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/local_setup.bash
+[0.520s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/local_setup.sh
+[0.521s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/local_setup.zsh
+[0.521s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/local_setup.dsv
+[0.521s] -- Symlinking: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.dsv
+[0.538s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/ament_index/resource_index/packages/carr-e-2
+[0.538s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/cmake/carr-e-2Config.cmake
+[0.539s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/cmake/carr-e-2Config-version.cmake
+[0.539s] -- Up-to-date symlink: /home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.xml
+[0.543s] Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/carr-e-2
