@@ -136,6 +136,7 @@ Then run these 2 commands
 ```
 
 ros2 run controller_manager spawner.py diff_cont
+
 ros2 run controller_manager spawner.py joint_broad
 ```
 
@@ -145,3 +146,24 @@ Finally run the following command to control the robot using the keyboard
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
 
+## Joystick control in Gazebo
+
+Open a new terminal and run
+
+```
+ros2 run joy_tester test_joy
+```
+
+Run the joystick node
+
+```
+ros2 launch carr-e-2 joystick.launch.py
+```
+
+
+To check cmd_vel, run
+
+```
+/diff_cont/cmd_vel_unstamped
+
+```
