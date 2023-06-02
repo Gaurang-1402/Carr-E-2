@@ -1,0 +1,17 @@
+[0.756s] Invoking command in '/home/dev/Desktop/dev_ws/build/joy_tester': PYTHONPATH=/home/dev/Desktop/dev_ws/build/joy_tester/prefix_override:/home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/joy_tester/build --no-deps install_data
+[1.016s] running develop
+[1.159s] running egg_info
+[1.159s] writing joy_tester.egg-info/PKG-INFO
+[1.159s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[1.160s] writing entry points to joy_tester.egg-info/entry_points.txt
+[1.160s] writing requirements to joy_tester.egg-info/requires.txt
+[1.160s] writing top-level names to joy_tester.egg-info/top_level.txt
+[1.198s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.199s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.240s] running build_ext
+[1.240s] Creating /home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)
+[1.242s] Installing test_joy script to /home/dev/Desktop/dev_ws/install/joy_tester/lib/joy_tester
+[1.242s] 
+[1.242s] Installed /home/dev/Desktop/dev_ws/build/joy_tester
+[1.242s] running install_data
+[1.270s] Invoked command in '/home/dev/Desktop/dev_ws/build/joy_tester' returned '0': PYTHONPATH=/home/dev/Desktop/dev_ws/build/joy_tester/prefix_override:/home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/joy_tester/build --no-deps install_data
