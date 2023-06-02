@@ -173,3 +173,17 @@ To check cmd_vel, run
 ros2 topic echo /diff_cont/cmd_vel_unstamped
 
 ```
+
+## Run SLAM toolbox
+
+Install packages
+
+```
+sudo apt install ros-foxy-slam-toolbox
+```
+
+Then run
+
+```
+ros2 launch slam_toolbox online_async_launch.py params_file:=./carr-e-2/config/mapper_params_online_async.yaml use_sim_time:=true
+```
