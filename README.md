@@ -210,7 +210,18 @@ ros2 run nav2_util lifecycle_bringup amcl
 ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
 ```
 
+TWIST COMMAND
+
+```
+ros2 run twist_mux twist_mux --ros-args --params-file ./carr-e-2/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+```
+
+
+SECOND THING
+
 ```
  ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
 ```
+
+
 
