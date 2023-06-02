@@ -209,3 +209,8 @@ Running AMCL
 ros2 run nav2_util lifecycle_bringup amcl
 ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
 ```
+
+```
+ ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+```
+
