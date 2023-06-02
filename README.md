@@ -220,7 +220,7 @@ ros2 run twist_mux twist_mux --ros-args --params-file ./carr-e-2/config/twist_mu
 SECOND THING
 
 ```
- ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+ros2 launch nav2_bringup navigation_launch.py my_map:=./my_map_save.yaml  use_sim_time:=true
 ```
 
 
