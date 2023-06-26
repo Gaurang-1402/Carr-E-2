@@ -227,7 +227,8 @@ ros2 launch nav2_bringup navigation_launch.py my_map:=./my_map_save.yaml  use_si
 miniterm -e /dev/ttyUSB0 57600
 ```
 ```
-ros2 run serial_motor_demo --ros-args -p serial_port:=/dev/ttyUSB0 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_count:=3436
+ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/ttyUSB0 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_count:=3436
+
 
 ```
 
