@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing serial_motor_demo.egg-info/PKG-INFO
+writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+writing entry points to serial_motor_demo.egg-info/entry_points.txt
+writing requirements to serial_motor_demo.egg-info/requires.txt
+writing top-level names to serial_motor_demo.egg-info/top_level.txt
+reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+Installing driver script to /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+Installing gui script to /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+
+Installed /home/dev/Desktop/dev_ws/build/serial_motor_demo
+running install_data
