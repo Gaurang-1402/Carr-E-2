@@ -254,4 +254,11 @@ Stop or start motor
  ros2 service call /start_motor std_srvs/srv/Empty {}
 ```
 
+## Camera
+
+```
+sudo apt install libraspberrypi-bin v4l-utils ros-foxy-v4l2-camera
+
+```
+
 
