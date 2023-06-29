@@ -223,15 +223,35 @@ SECOND THING
 ros2 launch nav2_bringup navigation_launch.py my_map:=./my_map_save.yaml  use_sim_time:=true
 ```
 
+
+# Physical robot
+
+## Testing motors
+
 ```
 miniterm -e /dev/ttyUSB0 57600
 ```
 ```
  ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/ttyUSB0 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_cpr:=678
-
-
-
 ```
 
+## Testing Lidar
+
+Install rplidar 
+
+```
+sudo apt install ros-foxy-rplidar-ros
+```
+Run rplidar node
+```
+ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0  -p frame_id:=laser_frame -p  angle_compensate:=true -p scan_mode:=Standard 
+```
+Stop or start motor
+
+```
+ ros2 service call /stop_motor std_srvs/srv/Empty {}
+
+ ros2 service call /start_motor std_srvs/srv/Empty {}
+```
 
 
