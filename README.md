@@ -187,3 +187,51 @@ Then run
 ```
 ros2 launch slam_toolbox online_async_launch.py params_file:=./carr-e-2/config/mapper_params_online_async.yaml use_sim_time:=true
 ```
+
+## Run Nav2
+
+Install packages
+
+```
+sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*
+```
+
+On 2 different terminals, run map server
+
+```
+ros2 run nav2_util lifecycle_bringup map_server
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map_save.yaml -p use_sim_time:=true
+```
+
+Running AMCL
+
+```
+ros2 run nav2_util lifecycle_bringup amcl
+ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
+```
+
+TWIST COMMAND
+
+```
+ros2 run twist_mux twist_mux --ros-args --params-file ./carr-e-2/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+```
+
+
+SECOND THING
+
+```
+ros2 launch nav2_bringup navigation_launch.py my_map:=./my_map_save.yaml  use_sim_time:=true
+```
+
+```
+miniterm -e /dev/ttyUSB0 57600
+```
+```
+ ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/ttyUSB0 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_cpr:=678
+
+
+
+```
+
+
+
