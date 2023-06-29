@@ -261,4 +261,9 @@ sudo apt install libraspberrypi-bin v4l-utils ros-foxy-v4l2-camera
 
 ```
 
+```
+ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]" -p camera_frame_id:=camera_link_optical
+
+```
+
 
