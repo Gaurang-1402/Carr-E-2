@@ -1,0 +1,18 @@
+[0.462s] Invoking command in '/home/dev/Desktop/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Desktop/dev_ws/build/serial_motor_demo/prefix_override:/home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[0.628s] running develop
+[0.715s] running egg_info
+[0.715s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.716s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.716s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.716s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.716s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.739s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.740s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.763s] running build_ext
+[0.764s] Creating /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.764s] Installing driver script to /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.764s] Installing gui script to /home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.765s] 
+[0.765s] Installed /home/dev/Desktop/dev_ws/build/serial_motor_demo
+[0.765s] running install_data
+[0.785s] Invoked command in '/home/dev/Desktop/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/Desktop/dev_ws/build/serial_motor_demo/prefix_override:/home/dev/Desktop/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/dev/Desktop/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/serial_motor_demo/build --no-deps install_data

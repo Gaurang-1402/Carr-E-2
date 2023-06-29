@@ -1,0 +1,179 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd0f347c7c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd0f347c7c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd0f34864c0>)
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dev/Desktop/dev_ws'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(carr-e-2) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'carr-e-2' with type 'ros.ament_cmake' and name 'carr-e-2'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dev/Desktop/dev_ws/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/foxy
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'carr-e-2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'carr-e-2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev/Desktop/dev_ws/build/carr-e-2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev/Desktop/dev_ws/install/carr-e-2', 'merge_install': False, 'path': '/home/dev/Desktop/dev_ws/carr-e-2', 'symlink_install': True, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev/Desktop/dev_ws/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev/Desktop/dev_ws/install/joy_tester', 'merge_install': False, 'path': '/home/dev/Desktop/dev_ws/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[0.398s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dev/Desktop/dev_ws/carr-e-2' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dev/Desktop/dev_ws/carr-e-2'
+[0.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev/Desktop/dev_ws/joy_tester' with build type 'ament_python'
+[0.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
+[0.796s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev/Desktop/dev_ws/joy_tester'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/dev/Desktop/dev_ws/build/carr-e-2 -- -j8 -l8
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/Desktop/dev_ws/build/carr-e-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/carr-e-2
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carr-e-2)
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/Desktop/dev_ws/build/carr-e-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/Desktop/dev_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/dev/Desktop/dev_ws/build/carr-e-2
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2' for CMake module files
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('carr-e-2', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/lib/pkgconfig/carr-e-2.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/lib/python3.8/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.zsh'
+[0.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/Desktop/dev_ws/install/carr-e-2/share/colcon-core/packages/carr-e-2)
+[1.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carr-e-2)
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2' for CMake module files
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('carr-e-2', 'cmake_prefix_path')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/hook/cmake_prefix_path.sh'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/bin'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/lib/pkgconfig/carr-e-2.pc'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/lib/python3.8/site-packages'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/carr-e-2/bin'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.sh'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.bash'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/carr-e-2/share/carr-e-2/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/Desktop/dev_ws/install/carr-e-2/share/colcon-core/packages/carr-e-2)
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/Desktop/dev_ws/build/joy_tester': PYTHONPATH=/home/dev/Desktop/dev_ws/build/joy_tester/prefix_override:/home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/joy_tester/build --no-deps install_data
+[2.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[2.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/Desktop/dev_ws/build/joy_tester' returned '0': PYTHONPATH=/home/dev/Desktop/dev_ws/build/joy_tester/prefix_override:/home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/Desktop/dev_ws/build/joy_tester/build --no-deps install_data
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/Desktop/dev_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester' for CMake module files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester' for CMake config files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester/lib'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester/bin'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester/lib/python3.8/site-packages'
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/dev/Desktop/dev_ws/install/joy_tester/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/package.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/package.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/package.sh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/package.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/Desktop/dev_ws/install/joy_tester/share/joy_tester/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/Desktop/dev_ws/install/joy_tester/share/colcon-core/packages/joy_tester)
+[2.188s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.189s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.199s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.229s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/Desktop/dev_ws/install/local_setup.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev/Desktop/dev_ws/install/_local_setup_util_ps1.py'
+[2.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/Desktop/dev_ws/install/setup.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/Desktop/dev_ws/install/local_setup.sh'
+[2.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev/Desktop/dev_ws/install/_local_setup_util_sh.py'
+[2.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/Desktop/dev_ws/install/setup.sh'
+[2.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/Desktop/dev_ws/install/local_setup.bash'
+[2.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/Desktop/dev_ws/install/setup.bash'
+[2.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/Desktop/dev_ws/install/local_setup.zsh'
+[2.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/Desktop/dev_ws/install/setup.zsh'

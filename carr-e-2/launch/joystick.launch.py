@@ -25,8 +25,13 @@ def generate_launch_description():
         executable='teleop_node',
         name='teleop_node',
         parameters=[teleop_params],
-        remappings=[('/cmd_vel', '/diff_cont/cmd_vel_unstamped')]
+        # For non nav2
+        # remappings=[('/cmd_vel', '/diff_cont/cmd_vel_unstamped')]
+        # For nav2
+        remappings=[('/cmd_vel', '/cmd_vel_joy')]
+
     )
+
 
 
     return LaunchDescription(
